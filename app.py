@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, jsonify
 import json
 import subprocess
-from backend.main import search_book
+from main import search_book
 
 
 app = Flask(__name__)
